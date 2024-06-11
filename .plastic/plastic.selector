@@ -1,0 +1,4 @@
+repository "UnitTests@GAMEFORGEPAGE@cloud"
+  path "/"
+    br "/main"
+    co "/main"
