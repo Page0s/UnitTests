@@ -10,6 +10,9 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# Ignore ignore.conf
+ignore.conf
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
@@ -62,3 +65,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# IntelliJ generated files
+
+*.idea
