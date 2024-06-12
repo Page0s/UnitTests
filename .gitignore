@@ -13,6 +13,9 @@
 # Ignore ignore.conf
 ignore.conf
 
+# Ignore plasticSCM
+*.plastic
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
