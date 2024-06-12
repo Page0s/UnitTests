@@ -5,6 +5,7 @@ namespace Gameforge {
 
 		Player player;
 		int totalDamage = 0;
+		string noName = "NoNamePlayer";
 
 		private void Start() {
 			player = FindObjectOfType<Player>();
@@ -18,5 +19,7 @@ namespace Gameforge {
 		public void AddToTotalDamage(int damage) {
 			totalDamage += damage;
 		}
+
+		public string GerNoName() => noName;
 	}
 }
